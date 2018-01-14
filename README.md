@@ -12,7 +12,7 @@
 **Preparing the data**
 - Download the cstr dataset avaible in folder Data of DirecCoclus repository
 - Install R.matlab package, necessary for the next step
-- Load data: cstr <- readMat("your local path to cstr.mat"), 
+- Load data: cstr <- readMat("your local path to cstr.mat") 
 
 **Fit dbmovMF to the data, see documentation for parameter specification**
 - res_saemb = dbmovMF(cstr$fea,k=4,max_iter = 150,n_init = 10,fit_algo="SAEMb")
