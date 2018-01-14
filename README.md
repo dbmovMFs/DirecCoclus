@@ -1,10 +1,10 @@
 # Directional Co-clustering (an R package)
 
 ###### Please install the folloing packages first:
--devtools
--Bessel 
--mclut
--Matrix
+- devtools
+- Bessel 
+- mclut
+- Matrix
 
 ###### Install DirecCoclus
 install_github("DirecCoclus", "dbmovMFs")
