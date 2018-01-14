@@ -14,7 +14,7 @@
 - Install R.matlab package, necessary for the next step
 - Load data: cstr <- readMat("your local path to cstr.mat"), 
 
-###### fit dbmovMF to the data, see documentation for parameter specification
+###### Fit dbmovMF to the data, see documentation for parameter specification
 - res_saemb = dbmovMF(cstr$fea,k=4,max_iter = 150,n_init = 10,fit_algo="SAEMb")
 
 ###### Evaluate the resulting row clustering using ARI (mclust package is needed for this step)
