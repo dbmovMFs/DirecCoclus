@@ -1,6 +1,6 @@
 # Directional Co-clustering (an R package)
 
-** Please install the following packages first: **
+**Please install the following packages first:**
 - devtools
 - Bessel 
 - mclut
