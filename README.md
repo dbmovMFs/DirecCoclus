@@ -10,7 +10,7 @@
 - install_github("DirecCoclus", "dbmovMFs")
 
 **Preparing the data**
-- Download the cstr dataset avaible in In folder Data of DirecCoclus repository
+- Download the cstr dataset avaible in folder Data of DirecCoclus repository
 - Install R.matlab package, necessary for the next step
 - Load data: cstr <- readMat("your local path to cstr.mat"), 
 
