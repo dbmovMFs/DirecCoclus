@@ -9,13 +9,13 @@
 **Install DirecCoclus**
 - ```install_github("DirecCoclus", "dbmovMFs")```
 
-**Usage Example: learning dbmovMFs from CSTR dataset**
+**Usage Example: learning dbmovMFs from the CSTR dataset**
 - Preparing the data
   - Download the CSTR dataset avaible in folder Data of DirecCoclus repository
   - Install R.matlab package, necessary for the next step
-  - Load data: cstr <- readMat("your local path to cstr.mat") 
+  - Load data: ```cstr <- readMat("your local path to cstr.mat")``` 
 - Fit dbmovMF to CSTR using SAEMb, see documentation for more details on parameter specification
-  res_saemb = dbmovMF(cstr$fea,k=4,max_iter = 150,n_init = 10,fit_algo="SAEMb")
+  ```res_saemb = dbmovMF(cstr$fea,k=4,max_iter = 150,n_init = 10,fit_algo="SAEMb")```
 - Evaluate the resulting row clustering using ARI (mclust package is needed for this step)**
   adjustedRandIndex(res_saemb$rowcluster-1,cstr$gnd)
 
