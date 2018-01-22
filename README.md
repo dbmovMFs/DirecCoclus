@@ -11,10 +11,10 @@
 
 **Usage Example: learning dbmovMFs from the CSTR dataset**
 - ```R
-#Download the CSTR dataset avaible in folder "Data" of DirecCoclus repository
+  #Download the CSTR dataset avaible in folder "Data" of DirecCoclus repository
 
-#Load CSTR, R.matlab package needed
-cstr <- readMat("your local path to cstr.mat")
+  #Load CSTR, R.matlab package needed
+  cstr <- readMat("your local path to cstr.mat")
 
 #Fit dbmovMF to CSTR using SAEMb, see documentation for more details on parameter specification 
 resSAEMb <- dbmovMF(cstr$fea,k=4,max_iter = 150,n_init = 10,fit_algo="SAEMb")
