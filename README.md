@@ -11,7 +11,7 @@
 
 **Usage Example: learning dbmovMFs from the CSTR dataset**
 - Preparing the data
-  - Download the CSTR dataset avaible in folder Data of DirecCoclus repository
+  - Download the CSTR dataset avaible in folder "Data" of DirecCoclus repository
   - Install R.matlab package, necessary for the next step
   - Load data: ```cstr <- readMat("your local path to cstr.mat")```
 - Fit dbmovMF to CSTR using SAEMb, see documentation for more details on parameter specification
