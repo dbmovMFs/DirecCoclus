@@ -11,7 +11,7 @@
 
 **Usage Example: learning dbmovMFs from the CSTR dataset**
 ```R
-#Download the CSTR dataset avaible in folder "Data" of DirecCoclus repository
+#The CSTR dataset is avaible in folder "Data" of the DirecCoclus repository
 
 #Load CSTR, R.matlab package needed
 cstr <- readMat("your local path to cstr.mat")
