@@ -7,7 +7,7 @@
 - Matrix
 
 **Install DirecCoclus**
-- ```install_github("DirecCoclus", "dbmovMFs")```
+- ```R install_github("DirecCoclus", "dbmovMFs")```
 
 **Usage Example: learning dbmovMFs from the CSTR dataset**
 ```R
